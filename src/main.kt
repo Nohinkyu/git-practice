@@ -1,6 +1,6 @@
 package src
 
-fun main(){
-    println("main 파일을 추가한다")
+fun signIn(email: String, password: String){
+    Logger.i("서버에 로그인 요청을 보낸다")
 
 }
